@@ -30,5 +30,11 @@ public class Number {
 	public Number() {
 		super();
 	}
+	@Override
+	public String toString() {
+		return "Number [id=" + id + ", number=" + number + "]";
+	}
+	
+	
 
 }
